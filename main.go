@@ -20,8 +20,6 @@ func init() {
 	cf, err = conf.LoadConf("etc/conf.toml")
 	if err != nil {
 		panic(err)
-		//log.Criticalf(appengine.NewContext(nil), "Load config error: %s", err)
-		//return
 	}
 
 	http.Handle("/", routes())
