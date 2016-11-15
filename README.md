@@ -1,1 +1,5 @@
 # linebot
+
+## License
+
+[MIT](LICENSE)
